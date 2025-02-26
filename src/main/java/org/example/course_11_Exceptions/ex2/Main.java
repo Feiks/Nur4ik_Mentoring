@@ -1,4 +1,4 @@
-package org.example.course_11_Exceptions.ex1;
+package org.example.course_11_Exceptions.ex2;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +10,9 @@ public class Main {
         catch(Exception ex){
 
             ex.printStackTrace();
+        }
+        finally{
+            System.out.println("Блок finally");
         }
         System.out.println("Программа завершена");
     }
