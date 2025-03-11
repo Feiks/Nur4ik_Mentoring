@@ -8,6 +8,7 @@ public class ClassWork {
     public static void main(String[] args) {
 
         List<Integer> nur4ikList = new ArrayList<>();
+        List<Integer> nur4ikList1 = new LinkedList<>();
         System.out.println(nur4ikList.isEmpty());
         List<Integer> FelixList = new ArrayList<>();
         FelixList.add(10);
